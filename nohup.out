@@ -1,0 +1,632 @@
+COMET WARNING: Comet has disabled auto-logging functionality as it has been imported after the following ML modules: torch. Metrics and hyperparameters can still be logged using Experiment.log_metrics() and Experiment.log_parameters()
+full: 466142 -> train: 279685, valid: 93228, test: 93229
+cuda:1
+num_class:  8
+COMET INFO: Couldn't find a Git repository in '/home/yuukiito/one_row_keyboard' nor in any parent directory. You can override where Comet is looking for a Git Patch by setting the configuration `COMET_GIT_DIRECTORY`
+COMET INFO: Experiment is live on comet.com https://www.comet.com/yu0ki/one-row-keyboard/9bfc6be5233547a896ec00c79bf6d6f4
+
+== Start Training ==
+Epoch:  1
+Epoch [1/50], Loss: 1.5143684148788452, Accuracy: 0.11556561291217804
+Epoch [1/50], Loss: 0.8614535331726074, Accuracy: 0.2958929240703583
+Epoch [1/50], Loss: 0.852429986000061, Accuracy: 0.36554667353630066
+Epoch [1/50], Loss: 0.7813467979431152, Accuracy: 0.40826648473739624
+Epoch [1/50], Loss: 0.787983238697052, Accuracy: 0.4364706873893738
+Accuracy: 0.4446055293083191
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'a', 'n', '<sp>', 'r', 'a', 'n', 'e', 'a', 'r', 'y', '<sp>', '2', 'h', 'a', '1', '<sp>', 'a', '.', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'b', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'a', 't', '<sp>', 'a', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', 'o', 'i', 'e', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'n', 'i', 't', 's', 'a', 'r', 'a', 'i', '<sp>', 's', 'e', 'r', 'a', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'c', 'i', 'm', 'e', '<sp>', 'n', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'n', '<sp>', 't', 'a', 's', 'l', 'i', 's', 'a', 't', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.4446055293083191
+best val accuracy updated
+Validation Accuracy: 0.5588685274124146
+Epoch:  2
+Epoch [2/50], Loss: 0.7125389575958252, Accuracy: 0.5662342309951782
+Epoch [2/50], Loss: 0.7017354965209961, Accuracy: 0.5484356880187988
+Epoch [2/50], Loss: 0.6703104376792908, Accuracy: 0.5561271905899048
+Epoch [2/50], Loss: 0.6792706251144409, Accuracy: 0.5611376762390137
+Epoch [2/50], Loss: 0.6162785291671753, Accuracy: 0.5658801794052124
+Accuracy: 0.5672764778137207
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'b', 'a', 'n', 'e', 'a', 'r', 'y', '<sp>', '2', 'h', 'a', '1', '<sp>', 'a', '.', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'b', 'a', 'h', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'a', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'l', '<sp>', '_', 'a', 'u', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'i', 'l', 's', 'a', 'r', 'a', 'y', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'i', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'l', 'i', 's', 'l', 'i', 's', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.5672764778137207
+best val accuracy updated
+Validation Accuracy: 0.604857325553894
+Epoch:  3
+Epoch [3/50], Loss: 0.5868374705314636, Accuracy: 0.5812606811523438
+Epoch [3/50], Loss: 0.5896908640861511, Accuracy: 0.601288914680481
+Epoch [3/50], Loss: 0.5907644629478455, Accuracy: 0.6027113795280457
+Epoch [3/50], Loss: 0.5704081654548645, Accuracy: 0.6045830249786377
+Epoch [3/50], Loss: 0.584305465221405, Accuracy: 0.6070922613143921
+Accuracy: 0.6078040599822998
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'b', 'a', 'n', 'e', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'a', '.', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'b', 'y', 'h', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', '_', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'n', 'i', 'l', 's', 'a', 'r', 'i', 'i', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'i', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 't', 'i', 'c', 't', 'i', 'c', 'a', 'd', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.6078040599822998
+best val accuracy updated
+Validation Accuracy: 0.6354160904884338
+Epoch:  4
+Epoch [4/50], Loss: 0.5369937419891357, Accuracy: 0.6223686337471008
+Epoch [4/50], Loss: 0.5272862911224365, Accuracy: 0.6302862167358398
+Epoch [4/50], Loss: 0.5365744233131409, Accuracy: 0.6314455270767212
+Epoch [4/50], Loss: 0.5374727845191956, Accuracy: 0.6324101090431213
+Epoch [4/50], Loss: 0.5064697861671448, Accuracy: 0.6332837343215942
+Accuracy: 0.6338111162185669
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'b', 'a', 'n', 'e', 'a', 'r', 'y', '<sp>', '2', 'h', '9', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'a', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'l', '<sp>', 'o', 'a', 'u', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'i', 'l', 'k', 'a', 'r', 'a', 'i', '<sp>', 's', 'e', 'b', 'a', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'l', 'a', 's', 'l', 'i', 'c', 'i', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.6338111162185669
+best val accuracy updated
+Validation Accuracy: 0.6465287208557129
+Epoch:  5
+Epoch [5/50], Loss: 0.46455326676368713, Accuracy: 0.6467745304107666
+Epoch [5/50], Loss: 0.5173229575157166, Accuracy: 0.6525822877883911
+Epoch [5/50], Loss: 0.49308255314826965, Accuracy: 0.6514544486999512
+Epoch [5/50], Loss: 0.4840089678764343, Accuracy: 0.6521289348602295
+Epoch [5/50], Loss: 0.4848833382129669, Accuracy: 0.6525515913963318
+Accuracy: 0.6528242230415344
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'e', 'a', 'r', 'y', '<sp>', '2', '0', 'a', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'i', 'l', 's', 'a', 'r', 'a', 'y', '<sp>', 's', 'e', 'b', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'c', 'a', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'n', '<sp>', 'd', 'i', 'c', 't', 'i', 'c', 'i', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.6528242230415344
+best val accuracy updated
+Validation Accuracy: 0.6591801643371582
+Epoch:  6
+Epoch [6/50], Loss: 0.4160228967666626, Accuracy: 0.6853411197662354
+Epoch [6/50], Loss: 0.4303918182849884, Accuracy: 0.668857216835022
+Epoch [6/50], Loss: 0.4649930000305176, Accuracy: 0.6687415838241577
+Epoch [6/50], Loss: 0.4822038412094116, Accuracy: 0.6686779856681824
+Epoch [6/50], Loss: 0.47315993905067444, Accuracy: 0.6686236262321472
+Accuracy: 0.6686567068099976
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'e', 'a', 'r', 'y', '<sp>', '2', 'h', 'a', '9', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'x', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 't', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'i', 'l', 'k', 'a', 'r', 'i', 'i', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'n', '<sp>', 't', 'i', 'c', 'l', 'i', 's', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.6686567068099976
+best val accuracy updated
+Validation Accuracy: 0.672134280204773
+Epoch:  7
+Epoch [7/50], Loss: 0.42469173669815063, Accuracy: 0.6756328344345093
+Epoch [7/50], Loss: 0.4236718714237213, Accuracy: 0.6808325052261353
+Epoch [7/50], Loss: 0.4348904490470886, Accuracy: 0.6808083057403564
+Epoch [7/50], Loss: 0.42339426279067993, Accuracy: 0.6803522109985352
+Epoch [7/50], Loss: 0.4443643391132355, Accuracy: 0.6803163886070251
+Accuracy: 0.6800936460494995
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'r', 'a', 'n', 'e', 'a', 'r', 'y', '<sp>', '2', '0', '1', '9', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'b', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'i', 'l', 's', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'd', 'i', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.6800936460494995
+best val accuracy updated
+Validation Accuracy: 0.6757197976112366
+Epoch:  8
+Epoch [8/50], Loss: 0.3983493447303772, Accuracy: 0.6938561201095581
+Epoch [8/50], Loss: 0.4090443253517151, Accuracy: 0.6922211050987244
+Epoch [8/50], Loss: 0.41778478026390076, Accuracy: 0.6911980509757996
+Epoch [8/50], Loss: 0.43055158853530884, Accuracy: 0.6908277273178101
+Epoch [8/50], Loss: 0.4179307520389557, Accuracy: 0.690214991569519
+Accuracy: 0.6902562975883484
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'b', 'a', 'n', 'e', 'a', 'r', 'y', '<sp>', 'r', 'h', 'i', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'i', 'l', 'k', 'a', 'r', 'a', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'c', 'a', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 't', 'i', 's', 't', 'i', 's', 'i', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.6902562975883484
+BEST MODEL UPDATED!
+Validation Accuracy: 0.6819062232971191
+Epoch:  9
+Epoch [9/50], Loss: 0.39742788672447205, Accuracy: 0.7296894788742065
+Epoch [9/50], Loss: 0.36214691400527954, Accuracy: 0.7011451721191406
+Epoch [9/50], Loss: 0.4374188780784607, Accuracy: 0.6994467973709106
+Epoch [9/50], Loss: 0.4471018612384796, Accuracy: 0.6992219686508179
+Epoch [9/50], Loss: 0.39617612957954407, Accuracy: 0.6985965371131897
+Accuracy: 0.6984570026397705
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '9', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', '_', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'a', 't', 's', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'c', 'a', 'm', 'e', '<sp>', 'n', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 't', 'i', 's', 't', 'i', 's', 'a', 'd', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.6984570026397705
+BEST MODEL UPDATED!
+Validation Accuracy: 0.6862711906433105
+Epoch:  10
+Epoch [10/50], Loss: 0.3752938210964203, Accuracy: 0.6942378282546997
+Epoch [10/50], Loss: 0.39163702726364136, Accuracy: 0.710037112236023
+Epoch [10/50], Loss: 0.3885846436023712, Accuracy: 0.7076951265335083
+Epoch [10/50], Loss: 0.37854254245758057, Accuracy: 0.7066426277160645
+Epoch [10/50], Loss: 0.38771092891693115, Accuracy: 0.7061359882354736
+Accuracy: 0.7059475183486938
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'e', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', '_', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'i', 'l', 's', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'b', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'l', 'i', 's', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7059475183486938
+BEST MODEL UPDATED!
+Validation Accuracy: 0.6889886856079102
+Epoch:  11
+Epoch [11/50], Loss: 0.3683253228664398, Accuracy: 0.7073881030082703
+Epoch [11/50], Loss: 0.3822478950023651, Accuracy: 0.7144908905029297
+Epoch [11/50], Loss: 0.3956319987773895, Accuracy: 0.7135559320449829
+Epoch [11/50], Loss: 0.37614840269088745, Accuracy: 0.7134199738502502
+Epoch [11/50], Loss: 0.3960358798503876, Accuracy: 0.7124810218811035
+Accuracy: 0.712360143661499
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '9', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'o', 'i', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'i', 'l', 'k', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'd', 'i', 's', 't', 'i', 'c', 'a', 'd', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.712360143661499
+BEST MODEL UPDATED!
+Validation Accuracy: 0.695656418800354
+Epoch:  12
+Epoch [12/50], Loss: 0.3553820848464966, Accuracy: 0.736718475818634
+Epoch [12/50], Loss: 0.3759176433086395, Accuracy: 0.7220755815505981
+Epoch [12/50], Loss: 0.39121487736701965, Accuracy: 0.720119833946228
+Epoch [12/50], Loss: 0.359762966632843, Accuracy: 0.7189910411834717
+Epoch [12/50], Loss: 0.39356887340545654, Accuracy: 0.7180882096290588
+Accuracy: 0.7179303765296936
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'm', 'a', 'r', 'y', '<sp>', '2', '0', '1', '9', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'a', 'l', 'k', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'n', '<sp>', 'l', 'i', 's', 't', 'a', 'c', 'a', 't', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7179303765296936
+BEST MODEL UPDATED!
+Validation Accuracy: 0.6994407176971436
+Epoch:  13
+Epoch [13/50], Loss: 0.35134074091911316, Accuracy: 0.7237699031829834
+Epoch [13/50], Loss: 0.3329528868198395, Accuracy: 0.7274371385574341
+Epoch [13/50], Loss: 0.3702709376811981, Accuracy: 0.7253402471542358
+Epoch [13/50], Loss: 0.3465035855770111, Accuracy: 0.7236512303352356
+Epoch [13/50], Loss: 0.3609468340873718, Accuracy: 0.7232068181037903
+Accuracy: 0.7229881882667542
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'b', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'i', 't', 's', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'd', 'i', 'c', 't', 'i', 'c', 'a', 't', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7229881882667542
+BEST MODEL UPDATED!
+Validation Accuracy: 0.7026091814041138
+Epoch:  14
+Epoch [14/50], Loss: 0.3177756667137146, Accuracy: 0.7519770860671997
+Epoch [14/50], Loss: 0.3573790192604065, Accuracy: 0.7306491732597351
+Epoch [14/50], Loss: 0.35220202803611755, Accuracy: 0.7296549081802368
+Epoch [14/50], Loss: 0.36784908175468445, Accuracy: 0.728553056716919
+Epoch [14/50], Loss: 0.3640501797199249, Accuracy: 0.727799654006958
+Accuracy: 0.7276774644851685
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'i', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'e', 'a', 'r', 'y', '<sp>', '2', '0', '1', '9', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'v', 'a', 't', 'k', 'i', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'n', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'l', 'i', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7276774644851685
+Validation Accuracy: 0.7015790939331055
+Epoch:  15
+Epoch [15/50], Loss: 0.3309447467327118, Accuracy: 0.7427515387535095
+Epoch [15/50], Loss: 0.3298354148864746, Accuracy: 0.7344982624053955
+Epoch [15/50], Loss: 0.3589370548725128, Accuracy: 0.7341035008430481
+Epoch [15/50], Loss: 0.3447125554084778, Accuracy: 0.7330851554870605
+Epoch [15/50], Loss: 0.3283323645591736, Accuracy: 0.7322442531585693
+Accuracy: 0.7320799827575684
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'm', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'b', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'a', 'l', 'k', 'i', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'l', 'i', 'c', 't', 'a', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7320799827575684
+BEST MODEL UPDATED!
+Validation Accuracy: 0.7049097418785095
+Epoch:  16
+Epoch [16/50], Loss: 0.35019999742507935, Accuracy: 0.7277570962905884
+Epoch [16/50], Loss: 0.3284197151660919, Accuracy: 0.7395598888397217
+Epoch [16/50], Loss: 0.37671786546707153, Accuracy: 0.7384130954742432
+Epoch [16/50], Loss: 0.33600208163261414, Accuracy: 0.7374333739280701
+Epoch [16/50], Loss: 0.36523738503456116, Accuracy: 0.7369228601455688
+Accuracy: 0.7365162372589111
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 't', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'b', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '9', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'b', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', '_', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'v', 'a', 'l', 'k', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'b', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 't', 'i', 's', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7365162372589111
+BEST MODEL UPDATED!
+Validation Accuracy: 0.7082480192184448
+Epoch:  17
+Epoch [17/50], Loss: 0.3322015404701233, Accuracy: 0.7384117841720581
+Epoch [17/50], Loss: 0.3232937753200531, Accuracy: 0.7436040639877319
+Epoch [17/50], Loss: 0.33150702714920044, Accuracy: 0.7423278093338013
+Epoch [17/50], Loss: 0.33843350410461426, Accuracy: 0.7410463094711304
+Epoch [17/50], Loss: 0.3245134651660919, Accuracy: 0.7405588030815125
+Accuracy: 0.7403041124343872
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'b', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', '_', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'a', 'l', 'k', 'i', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'n', '<sp>', 't', 'a', 'c', 't', 'a', 'c', 'i', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7403041124343872
+BEST MODEL UPDATED!
+Validation Accuracy: 0.709696888923645
+Epoch:  18
+Epoch [18/50], Loss: 0.30506712198257446, Accuracy: 0.7379559278488159
+Epoch [18/50], Loss: 0.32343122363090515, Accuracy: 0.7487931847572327
+Epoch [18/50], Loss: 0.3445998430252075, Accuracy: 0.7468193769454956
+Epoch [18/50], Loss: 0.3080502450466156, Accuracy: 0.7451776266098022
+Epoch [18/50], Loss: 0.3341687023639679, Accuracy: 0.7442380785942078
+Accuracy: 0.7439478635787964
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', '_', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'a', 't', 'k', 'i', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'l', 'i', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7439478635787964
+Validation Accuracy: 0.7087256908416748
+Epoch:  19
+Epoch [19/50], Loss: 0.29185688495635986, Accuracy: 0.7660501599311829
+Epoch [19/50], Loss: 0.3018268942832947, Accuracy: 0.7520268559455872
+Epoch [19/50], Loss: 0.2999497056007385, Accuracy: 0.7501708269119263
+Epoch [19/50], Loss: 0.2956056594848633, Accuracy: 0.749056875705719
+Epoch [19/50], Loss: 0.3039938807487488, Accuracy: 0.7481290698051453
+Accuracy: 0.7477997541427612
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'e', 'a', 'r', 'y', '<sp>', '2', '0', '1', '9', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'b', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'v', 'a', 'l', 'k', 'i', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'n', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'd', 'i', 's', 't', 'i', 'c', 'a', 'd', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7477997541427612
+BEST MODEL UPDATED!
+Validation Accuracy: 0.7117504477500916
+Epoch:  20
+Epoch [20/50], Loss: 0.3113296926021576, Accuracy: 0.7513419985771179
+Epoch [20/50], Loss: 0.27368420362472534, Accuracy: 0.7549272179603577
+Epoch [20/50], Loss: 0.3105546832084656, Accuracy: 0.7540713548660278
+Epoch [20/50], Loss: 0.3051048815250397, Accuracy: 0.7527952194213867
+Epoch [20/50], Loss: 0.29262837767601013, Accuracy: 0.7518274784088135
+Accuracy: 0.7514529228210449
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'i', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '9', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'n', 'i', 'l', 'k', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'b', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'y', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 't', 'i', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7514529228210449
+BEST MODEL UPDATED!
+Validation Accuracy: 0.7122815847396851
+Epoch:  21
+Epoch [21/50], Loss: 0.30124425888061523, Accuracy: 0.7604360580444336
+Epoch [21/50], Loss: 0.275564968585968, Accuracy: 0.7605419754981995
+Epoch [21/50], Loss: 0.2771892547607422, Accuracy: 0.758851170539856
+Epoch [21/50], Loss: 0.3144168257713318, Accuracy: 0.7577692270278931
+Epoch [21/50], Loss: 0.3169926106929779, Accuracy: 0.7566128373146057
+Accuracy: 0.7563791871070862
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '9', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'v', 'a', 'l', 'k', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'n', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'l', 'i', 'c', 't', 'i', 'c', 'a', 'd', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7563791871070862
+BEST MODEL UPDATED!
+Validation Accuracy: 0.7139109373092651
+Epoch:  22
+Epoch [22/50], Loss: 0.28134995698928833, Accuracy: 0.7512969970703125
+Epoch [22/50], Loss: 0.269334614276886, Accuracy: 0.7641022801399231
+Epoch [22/50], Loss: 0.27754324674606323, Accuracy: 0.7625716924667358
+Epoch [22/50], Loss: 0.3014058470726013, Accuracy: 0.7613901495933533
+Epoch [22/50], Loss: 0.31586340069770813, Accuracy: 0.7604091167449951
+Accuracy: 0.7602110505104065
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'b', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', '_', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'a', 'l', 'k', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'd', 'i', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7602110505104065
+BEST MODEL UPDATED!
+Validation Accuracy: 0.7144465446472168
+Epoch:  23
+Epoch [23/50], Loss: 0.25008201599121094, Accuracy: 0.783366322517395
+Epoch [23/50], Loss: 0.28961408138275146, Accuracy: 0.7679505944252014
+Epoch [23/50], Loss: 0.28303730487823486, Accuracy: 0.7660716772079468
+Epoch [23/50], Loss: 0.2745353877544403, Accuracy: 0.7649269700050354
+Epoch [23/50], Loss: 0.28783053159713745, Accuracy: 0.7640384435653687
+Accuracy: 0.7636866569519043
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', '_', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'a', 'l', 'k', 'i', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'n', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'l', 'i', 'c', 't', 'i', 's', 'i', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7636866569519043
+Validation Accuracy: 0.7141237258911133
+Epoch:  24
+Epoch [24/50], Loss: 0.2592311501502991, Accuracy: 0.7605926990509033
+Epoch [24/50], Loss: 0.2588602304458618, Accuracy: 0.7718161344528198
+Epoch [24/50], Loss: 0.2811691164970398, Accuracy: 0.7700709700584412
+Epoch [24/50], Loss: 0.2779383063316345, Accuracy: 0.7687156796455383
+Epoch [24/50], Loss: 0.27227461338043213, Accuracy: 0.7677751779556274
+Accuracy: 0.7673618793487549
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'v', 'u', 'a', 'b', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'i', 'l', 'k', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'c', 'a', 'm', 'e', '<sp>', 'n', 'u', 's', 'i', 'g', 'n', '<sp>', 'g', 'n', '<sp>', 'd', 'i', 's', 't', 'a', 's', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7673618793487549
+BEST MODEL UPDATED!
+Validation Accuracy: 0.7148769497871399
+Epoch:  25
+Epoch [25/50], Loss: 0.25416451692581177, Accuracy: 0.7693048715591431
+Epoch [25/50], Loss: 0.26088714599609375, Accuracy: 0.774843156337738
+Epoch [25/50], Loss: 0.27084681391716003, Accuracy: 0.7733340263366699
+Epoch [25/50], Loss: 0.2978415787220001, Accuracy: 0.77260422706604
+Epoch [25/50], Loss: 0.2505887448787689, Accuracy: 0.7715598344802856
+Accuracy: 0.7710988521575928
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'm', 'a', 'b', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 't', '<sp>', '_', 'a', 'm', 'm', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'v', 'a', 'l', 'k', 'i', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'n', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'd', 'i', 's', 't', 'i', 'c', 'i', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7710988521575928
+Validation Accuracy: 0.7143406867980957
+Epoch:  26
+Epoch [26/50], Loss: 0.2269173562526703, Accuracy: 0.7740670442581177
+Epoch [26/50], Loss: 0.24432843923568726, Accuracy: 0.778562068939209
+Epoch [26/50], Loss: 0.2591104507446289, Accuracy: 0.7778136730194092
+Epoch [26/50], Loss: 0.26190903782844543, Accuracy: 0.7762947082519531
+Epoch [26/50], Loss: 0.27287745475769043, Accuracy: 0.7754812836647034
+Accuracy: 0.7752059102058411
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'v', 'm', 'a', 'r', 'y', '<sp>', '2', '0', 'a', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 't', '<sp>', '_', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'a', 'l', 'k', 'i', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'c', 'a', 'm', 'e', '<sp>', 'n', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'd', 'i', 'c', 't', 'i', 'c', 'i', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7752059102058411
+BEST MODEL UPDATED!
+Validation Accuracy: 0.7160826921463013
+Epoch:  27
+Epoch [27/50], Loss: 0.23555265367031097, Accuracy: 0.7776358127593994
+Epoch [27/50], Loss: 0.23451468348503113, Accuracy: 0.7823058366775513
+Epoch [27/50], Loss: 0.23844462633132935, Accuracy: 0.7809491753578186
+Epoch [27/50], Loss: 0.2580792307853699, Accuracy: 0.7804252505302429
+Epoch [27/50], Loss: 0.2702758014202118, Accuracy: 0.7792616486549377
+Accuracy: 0.7789522409439087
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'h', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'a', 'r', 'd', '<sp>', '_', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'v', 'i', 'l', 'k', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'n', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 't', 'i', 's', 't', 'i', 'c', 'i', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7789522409439087
+Validation Accuracy: 0.7153283953666687
+Epoch:  28
+Epoch [28/50], Loss: 0.21779844164848328, Accuracy: 0.7792206406593323
+Epoch [28/50], Loss: 0.20170533657073975, Accuracy: 0.7875098586082458
+Epoch [28/50], Loss: 0.23694825172424316, Accuracy: 0.7857838869094849
+Epoch [28/50], Loss: 0.2125568985939026, Accuracy: 0.7844251990318298
+Epoch [28/50], Loss: 0.2175000160932541, Accuracy: 0.7833134531974792
+Accuracy: 0.7828715443611145
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '9', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 'd', 'h', 'i', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'n', 'a', 'l', 'k', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'v', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'd', 'a', 'c', 't', 'i', 'c', 'i', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7828715443611145
+BEST MODEL UPDATED!
+Validation Accuracy: 0.7171579599380493
+Epoch:  29
+Epoch [29/50], Loss: 0.19125737249851227, Accuracy: 0.7953566908836365
+Epoch [29/50], Loss: 0.21318772435188293, Accuracy: 0.7902718186378479
+Epoch [29/50], Loss: 0.2405804991722107, Accuracy: 0.788936972618103
+Epoch [29/50], Loss: 0.2402360886335373, Accuracy: 0.7873847484588623
+Epoch [29/50], Loss: 0.2149561494588852, Accuracy: 0.7863972187042236
+Accuracy: 0.7858225703239441
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '9', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'n', 'i', 'l', 'k', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'n', 'u', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 't', 'a', 's', 't', 'i', 'c', 'i', 'd', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7858225703239441
+Validation Accuracy: 0.7137922048568726
+Epoch:  30
+Epoch [30/50], Loss: 0.2049509733915329, Accuracy: 0.7918895483016968
+Epoch [30/50], Loss: 0.20324628055095673, Accuracy: 0.7928512096405029
+Epoch [30/50], Loss: 0.20861704647541046, Accuracy: 0.7917572259902954
+Epoch [30/50], Loss: 0.23064814507961273, Accuracy: 0.7908306121826172
+Epoch [30/50], Loss: 0.2323920875787735, Accuracy: 0.7895402908325195
+Accuracy: 0.7892453670501709
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 't', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'v', 'a', 'l', 'k', 'i', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'n', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 't', 'i', 'c', 't', 'i', 'c', 'i', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7892453670501709
+Validation Accuracy: 0.7170604467391968
+Epoch:  31
+Epoch [31/50], Loss: 0.20616436004638672, Accuracy: 0.8172906041145325
+Epoch [31/50], Loss: 0.20282495021820068, Accuracy: 0.7961129546165466
+Epoch [31/50], Loss: 0.1986929029226303, Accuracy: 0.7946509122848511
+Epoch [31/50], Loss: 0.22050629556179047, Accuracy: 0.7936789989471436
+Epoch [31/50], Loss: 0.22075428068637848, Accuracy: 0.7928605079650879
+Accuracy: 0.7925393581390381
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '9', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'y', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'v', 'a', 'l', 's', 'i', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'n', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'l', 'a', 'c', 't', 'i', 's', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7925393581390381
+Validation Accuracy: 0.7159930467605591
+Epoch:  32
+Epoch [32/50], Loss: 0.1974964439868927, Accuracy: 0.7870270013809204
+Epoch [32/50], Loss: 0.20581059157848358, Accuracy: 0.8001551628112793
+Epoch [32/50], Loss: 0.20258581638336182, Accuracy: 0.7988842725753784
+Epoch [32/50], Loss: 0.20079688727855682, Accuracy: 0.7974689602851868
+Epoch [32/50], Loss: 0.20396900177001953, Accuracy: 0.7961667776107788
+Accuracy: 0.7956549525260925
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 't', '<sp>', '_', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'n', 'i', 'l', 's', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'n', 'u', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'd', 'i', 's', 't', 'a', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7956549525260925
+Validation Accuracy: 0.7164852619171143
+Epoch:  33
+Epoch [33/50], Loss: 0.1935614049434662, Accuracy: 0.7860060334205627
+Epoch [33/50], Loss: 0.1883794367313385, Accuracy: 0.8014615774154663
+Epoch [33/50], Loss: 0.20026858150959015, Accuracy: 0.8009161949157715
+Epoch [33/50], Loss: 0.21093203127384186, Accuracy: 0.7998781204223633
+Epoch [33/50], Loss: 0.19782117009162903, Accuracy: 0.7987074851989746
+Accuracy: 0.7983811497688293
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'o', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'v', 'a', 'l', 'k', 'a', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'n', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'd', 'i', 'k', 't', 'i', 's', 'a', 'd', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.7983811497688293
+Validation Accuracy: 0.7162845134735107
+Epoch:  34
+Epoch [34/50], Loss: 0.19849763810634613, Accuracy: 0.8044356107711792
+Epoch [34/50], Loss: 0.17268018424510956, Accuracy: 0.8049312829971313
+Epoch [34/50], Loss: 0.17385604977607727, Accuracy: 0.8041495084762573
+Epoch [34/50], Loss: 0.2039339691400528, Accuracy: 0.8029575347900391
+Epoch [34/50], Loss: 0.1806940734386444, Accuracy: 0.8018804788589478
+Accuracy: 0.801636278629303
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', '_', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'a', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'c', 'a', 'm', 'e', '<sp>', 'v', 'u', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'd', 'i', 'c', 't', 'i', 's', 'i', 'd', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.801636278629303
+Validation Accuracy: 0.7142288684844971
+Epoch:  35
+Epoch [35/50], Loss: 0.18821951746940613, Accuracy: 0.807141900062561
+Epoch [35/50], Loss: 0.1828794628381729, Accuracy: 0.8079430460929871
+Epoch [35/50], Loss: 0.18679852783679962, Accuracy: 0.8065110445022583
+Epoch [35/50], Loss: 0.18848508596420288, Accuracy: 0.8053972721099854
+Epoch [35/50], Loss: 0.20474322140216827, Accuracy: 0.8044067025184631
+Accuracy: 0.8040801286697388
+input_sentence :  ['<cls>', 'R', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'J', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '1', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'r', 'e', 'l', 'e', 'a', 's', 'e', 'd', '<sp>', 'i', 'n', '<sp>', 'j', 'a', 'n', 'u', 'a', 'r', 'y', '<sp>', '2', '0', '1', '9', '<sp>', 'i', 'n', '<sep>', '<pad>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'J', 'a', 'p', 'a', 'n', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', 'g', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 'j', 'a', 'p', 'a', 'f', '<sp>', ',', '<sp>', 'i', 't', '<sp>', 'i', 's', '<sp>', 't', 'h', 'e', '<sp>', 't', 'h', 'i', 'r', 'd', '<sp>', '_', 'a', 'm', 'e', '<sep>', '<pad>', '<pad>']
+input_sentence :  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'V', 'a', 'l', 'k', 'y', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+output_sentence:  ['<cls>', 'i', 'n', '<sp>', 't', 'h', 'e', '<sp>', 'f', 'a', 'l', 'k', 'i', 'r', 'i', 'a', '<sp>', 's', 'e', 'r', 'i', 'e', 's', '<sp>', '.', '<sp>', '<sp>', 't', 'h', 'e', '<sep>', '<pad>']
+input_sentence :  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'f', 'u', 's', 'i', 'o', 'n', '<sp>', 'o', 'f', '<sp>', 't', 'a', 'c', 't', 'i', 'c', 'a', 'l', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+output_sentence:  ['<cls>', 's', 'a', 'm', 'e', '<sp>', 'n', 'e', 's', 'i', 'g', 'n', '<sp>', 'g', 'f', '<sp>', 'd', 'i', 'c', 't', 'i', 'c', 'a', 't', '<sp>', 'a', 'n', 'd', '<sep>', '<pad>', '<pad>', '<pad>']
+Training Accuracy: 0.8040801286697388
+Validation Accuracy: 0.7152824997901917
+Epoch:  36
+Epoch [36/50], Loss: 0.18463897705078125, Accuracy: 0.8181719183921814
+Epoch [36/50], Loss: 0.16882312297821045, Accuracy: 0.8098973631858826
+Epoch [36/50], Loss: 0.18403933942317963, Accuracy: 0.8092613220214844
+Epoch [36/50], Loss: 0.1859237253665924, Accuracy: 0.8084980249404907
+Epoch [36/50], Loss: 0.1661965399980545, Accuracy: 0.8074213862419128

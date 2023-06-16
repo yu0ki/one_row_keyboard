@@ -1,0 +1,8 @@
+keys.json
+/__pycache__/
+.ipynb_checkpoints
+.vscode
+BertModelSGD1/
+dataset/
+*.pickle
+
